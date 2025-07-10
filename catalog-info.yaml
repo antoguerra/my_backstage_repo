@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world-app
+  description: Simple “Hello World” for Backstage demo
+  tags:
+    - demo
+    - hello-world
+  annotations:
+    github.com/project-slug: your-org/hello-world
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
