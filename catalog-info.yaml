@@ -13,9 +13,8 @@ spec:
   type: service
   lifecycle: experimental
   owner: user:antoguerra
-
+  providesApis: [hello-world-api]
 ---
-
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -26,4 +25,4 @@ spec:
   lifecycle: experimental
   owner: user:antoguerra
   definition:
-    $text: ./openapi.yaml
+    $text: ./openapi.json
