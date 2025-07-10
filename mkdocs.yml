@@ -1,0 +1,8 @@
+site_name: Hello-World Service
+site_description: An informative description of the Hello-World Service.
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+
+plugins:
+  - techdocs-core
